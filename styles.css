@@ -11,24 +11,28 @@ header {
 }
 
 main {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    height: 80vh;
-}
-
-section {
     text-align: center;
     padding: 20px;
-    flex: 1;
 }
 
-footer {
-    background-color: #87CEEB; /* Azul claro */
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+form {
+    margin-bottom: 20px;
 }
+
+button {
+    padding: 5px 10px;
+    background-color: #87CEEB; /* Azul claro */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4682B4; /* Azul médio */
+}
+
+#resultado {
+    font-weight: bold;
+}
+
 
